@@ -39,18 +39,27 @@ img {
     background-color: #000;
 }
 .item {
-    grid-column: 1/2;
+    grid-column: 1/1;
     color: white;
     font-size: 0.8em;
     background-color: #000;
     margin-bottom: 0.5rem;
 }
 .item_p {
-    grid-column: 3/3;
+    grid-column: 2/2;
     color: red;
     font-size: 0.8em;
     background-color: #000;
     margin-bottom: 0.2rem;
+}
+.item_boton {
+    grid-column: 3/3;
+}
+button {
+    font-size: 0.5em;
+    color: #000;
+    background-color: gold;
+    padding: 0.5em;
 }
 .item_variedad {
     grid-column: 1/3;
